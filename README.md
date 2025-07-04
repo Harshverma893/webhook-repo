@@ -1,6 +1,6 @@
 # 📡 Webhook Repository
 
-This repository contains a **Flask application** that receives GitHub webhook events (Push, Pull Request, Merge) from the [Action Repository](https://github.com/your-username/action-repo), stores them in **MongoDB**, and displays them on a real-time web UI.
+This repository contains a **Flask application** that receives GitHub webhook events (Push, Pull Request, Merge) from the [Action Repository](https://github.com/Harshverma893/action-repo), stores them in **MongoDB**, and displays them on a real-time web UI.
 
 ---
 
