@@ -101,14 +101,16 @@ Merge:
 
 Each document in the github_events.events collection contains:
 
-Field	Description
-_id      	      MongoDB ObjectId
-request_id     	Commit hash or PR ID
-author	        GitHub username
-action	        "PUSH", "PULL_REQUEST", "MERGE"
-from_branch	    Source branch
-to_branch	      Destination branch
-timestamp	UTC   datetime string
+| Field         | Description                           |
+| ------------- | ------------------------------------- |
+| `_id`         | MongoDB ObjectId                      |
+| `request_id`  | Commit hash or PR ID                  |
+| `author`      | GitHub username                       |
+| `action`      | `"PUSH"`, `"PULL_REQUEST"`, `"MERGE"` |
+| `from_branch` | Source branch                         |
+| `to_branch`   | Destination branch                    |
+| `timestamp`   | UTC datetime string                   |
+
 
 ### ✅ Final Test Checklist
 
